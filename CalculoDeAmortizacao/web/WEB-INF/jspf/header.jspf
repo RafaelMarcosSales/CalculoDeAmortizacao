@@ -1,0 +1,6 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div class="jumbotron text-center text-light m-0" style="background: linear-gradient(to bottom right, #3f53e0, #1c2f7b)">
+    <h1 class="mb-3" style="font-size: 3rem">Projeto 2 - POO</h1>
+    <h2 class="lead">Cálculo de Amortização</h2>
+</div>

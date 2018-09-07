@@ -1,0 +1,12 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div class="footer py-2 px-4 text-light">
+    <div class="row">
+        <a class="text-dark" href="https://github.com/RafaelMarcosSales/CalculoDeAmortizacao">
+            <i class="brand-icon fab fa-github"></i><p class="d-inline-block m-0">/RafaelMarcosSales/CalculoDeAmortizacao</p>
+        </a>
+        <div class="align-self-center ml-auto">
+            <img src="img/logoGovernoSP.png" alt="Centro Paula Souza" width="150">
+        </div>
+    </div>
+</div> 

@@ -1,0 +1,24 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f3f4f5">
+    <a class="navbar-brand" href="#"><img class="mr-2" src="img/logoFatec.png" alt="Centro Paula Souza" width="70"><img src="img/logoCPS.png" alt="Centro Paula Souza" width="50"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Amortização Constante</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Amortização Americana</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tabela Price</a>
+            </li>
+        </ul>
+    </div>
+</nav>
