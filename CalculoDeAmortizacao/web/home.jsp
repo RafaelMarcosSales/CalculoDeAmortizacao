@@ -14,7 +14,7 @@
         <%@include file="/WEB-INF/jspf/menu.jspf"%>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item active" aria-current="page">Home</li>
+                <li> class="breadcrumb-item active" aria-current="page">Home</li>
             </ol>
         </nav>
         
