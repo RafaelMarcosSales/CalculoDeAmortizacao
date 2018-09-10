@@ -14,15 +14,15 @@
         <%@include file="/WEB-INF/jspf/menu.jspf"%>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li> class="breadcrumb-item active" aria-current="page">Home</li>
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
             </ol>
         </nav>
         
         <main>
             
             <div class="container-fluid">
-                <div class="row px-2">
-                    <div class="card col-md-6 col-lg-4 my-3">
+                <div class="row justify-content-center px-2">
+                    <div class="card col-xl-3 my-3 mx-4">
                         <div class="card-body">
                             <h5 class="card-title">Sobre nossa equipe</h5>
                             <p class="lead">Nosso time é composto pelos membros:</p>
@@ -35,7 +35,7 @@
                         </div>
                     </div>
 
-                    <div class="card col-md-6 col-lg-4 my-3">
+                    <div class="card col-xl-3 my-3 mx-4">
                         <div class="card-body">
                             <h5 class="card-title">A aplicação</h5>
                             <p class="lead">O que essa aplicação irá fazer?</p>
@@ -47,13 +47,13 @@
                         </div>
                     </div>
                     
-                    <div class="card col-md-12 col-lg-4 my-3">
+                    <div class="card col-xl-3 my-3 mx-4">
                         <div class="card-body">
                             <h5 class="card-title">Hora de conferir!</h5>
                             <p class="lead">Primeiro passo...</p>
                             <hr class="my-2"/>
                             <p class="card-text">Clique no botão abaixo ou navegue pelo menu acima para começar a explorar o sistema!</p>
-                            <a href="#" class="btn btn-primary">Começar <i class="far fa-play-circle"></i></a>
+                            <a href="amortizacaoAmericana.jsp" class="btn btn-primary">Começar <i class="far fa-play-circle"></i></a>
                         </div>
                     </div>
                     
