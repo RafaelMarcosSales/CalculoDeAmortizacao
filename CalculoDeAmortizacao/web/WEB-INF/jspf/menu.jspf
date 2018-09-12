@@ -14,10 +14,10 @@
                 <a class="nav-link" href="amortizacaoConstante.jsp">Amortização Constante</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Amortização Americana</a>
+                <a class="nav-link" href="amortizacaoAmericana.jsp">Amortização Americana</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Tabela Price</a>
+                <a class="nav-link" href="tabelaPrice.jsp">Tabela Price</a>
             </li>
         </ul>
     </div>
