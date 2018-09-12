@@ -1,7 +1,7 @@
-<%-- 
+﻿<%-- 
     Document   : amortizacaoAmericana
     Created on : 07/09/2018, 13:44:16
-    Author     : LEOES
+    Author     : Renan
 --%>
 
 <%@page import="java.text.NumberFormat"%>
