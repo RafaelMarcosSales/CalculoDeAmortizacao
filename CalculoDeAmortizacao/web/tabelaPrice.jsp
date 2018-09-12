@@ -107,6 +107,7 @@
                                                     <th>0</th>
                                                     <td></td>
                                                     <td></td>
+                                                    <td></td>
                                                     <td><%= NumberFormat.getCurrencyInstance().format(saldodev)%></td>
                                                     <td></td>                                  
                                                 </tr>
