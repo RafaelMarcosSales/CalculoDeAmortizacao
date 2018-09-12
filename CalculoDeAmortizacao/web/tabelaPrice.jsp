@@ -68,6 +68,9 @@
                                         float taxajuros = Float.parseFloat(vlJuros);
                                         int meses = Integer.parseInt(qtMeses);
                                         double prestacao, juros, saldodev, amort;
+                                        double totpres = 0;
+                                        double totju = 0;
+                                        double totamo = 0;
                                         saldodev = (emprestimo - entrada);
                                         prestacao = (saldodev * (((Math.pow((1+(taxajuros/100)),meses)) * (taxajuros/100)) / ((Math.pow((1+(taxajuros/100)),meses)) - 1)));
                             %>
@@ -115,7 +118,10 @@
                                                         for (int i = 1; i <= meses; i++) {
                                                             juros = (saldodev * (taxajuros/100));
                                                             amort = prestacao - juros;
-                                                            saldodev = saldodev - amort;                                                                                                                   
+                                                            saldodev = saldodev - amort;    
+                                                            totpres = totpres + prestacao;
+                                                            totju = totju + juros;
+                                                            totamo = totamo + amort;
                                                     %>
                                                 <tr>
                                                     <th><%= i%></th>
@@ -124,7 +130,16 @@
                                                     <td><%= NumberFormat.getCurrencyInstance().format(amort)%></td>
                                                     <td><%= NumberFormat.getCurrencyInstance().format(saldodev)%></td>
                                                 </tr>
-                                                    <%}%>
+                                                    <%}
+                                                    %>
+                                                <tr>
+                                                    <th><%="TOTAL"%></th>
+                                                    <td><%= NumberFormat.getCurrencyInstance().format(totpres)%></td>
+                                                    <td><%= NumberFormat.getCurrencyInstance().format(totju)%></td>
+                                                    <td><%= NumberFormat.getCurrencyInstance().format(totamo)%></td>
+                                                    
+                                                </tr>
+                                                    
                                             </tbody>
                                         </table>
                             <%  
